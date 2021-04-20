@@ -1,4 +1,12 @@
 <html>
+Design
+
+Architecture design
+<img src="Architecture_Subscribe_Publish.PNG", alt="Architecture model", width = "800", height="250">
+Above is the Publish/Subscribe architecture design. One process isthe user setting up the notification window for the specific platforms they want to highlight.
+A seperate processs is reading in the notifications, which come from the CSV file and then are written to the notification window and buttons.
+
+
 
 Overview of project
 	Create a central notification window for all incoming notifications to be shown. Sits on the left side of the users’ screen by default and as 5 windows for 4 specific notification brands (canvas, discord, github, outlook, etc) and one “other” section. Wil show the most recent notification (first~10 chars) and when clicked will expand to show all unseen notifications (~150 chars).
