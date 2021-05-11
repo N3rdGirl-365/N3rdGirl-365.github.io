@@ -5,6 +5,10 @@ h1 {
 
 }
 
+body {
+	font-family: Arial;
+}
+
 h2 {
 	color: 396682;
 	font-family: Arial;
@@ -22,13 +26,13 @@ h4 {
 
 p {
 	color: 272727;
-	font-family: arial;
+	font-family: Arial;
 	font-size: 13pt;
 
 }
 
 li {
 	color: 272727;
-	font-family: arial;
+	font-family: Arial;
 	font-size: 13pt;
 }
